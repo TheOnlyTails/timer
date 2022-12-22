@@ -18,7 +18,7 @@
 <div class="buttons">
 	<button on:click={() => (stop = !stop)}>
 		{#if stop}
-			Continue
+			Start
 		{:else}
 			Stop
 		{/if}
@@ -34,7 +34,7 @@
 	.buttons {
 		display: flex;
 		gap: 1rem;
-		
+
 		button {
 			inline-size: var(--size-fluid-7);
 			aspect-ratio: var(--ratio-golden);
